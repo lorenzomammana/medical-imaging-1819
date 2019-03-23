@@ -1,39 +1,32 @@
-cd 'C:\Users\loren\Documents\MATLAB\thirdparty-libraries\Tools-for-NIfTI-and-ANALYZE-image\Tools-for-NIfTI-and-ANALYZE-image';
-
-[file, path] = uigetfile;
-
-img = load_nii(strcat(path, file));
-
-header = niftiinfo(strcat(path, file));
+function features = morphological_features(img, header)
 
 non_zero_voxel = (img.img ~= 0);
 
 number_of_voxel = sum(non_zero_voxel(:));
 
 % Dividiamo per 10 in modo tale da avere unità di misura cm^3
-
 voxel_volume = prod(header.PixelDimensions / 10);
 
 mtv = voxel_volume * number_of_voxel;
 
-surface = compute__area(img.img, header.PixelDimensions);
-% calcoliamo il raggio di una sfera che hai il volume di 1)
+surface = compute_area(img.img, header.PixelDimensions);
 
+% calcoliamo il raggio di una sfera che ha volume uguale a mtv
 radius = ((3 / 4) * (mtv / pi)) ^ (1 / 3);
 
 sphere_surface = 4 * pi * (radius ^ 2);
 
 spherical_disproportion = surface / sphere_surface;
 
+% Sphericity è l'inversa della disproportion
 sphericity = 1 / spherical_disproportion;
 
 stv_ratio = surface / mtv;
 
-view_nii(img);
+features = [mtv, surface, spherical_disproportion, sphericity, stv_ratio];
 
-% Omogeneo meno aggressivo, eterogeneo più aggressivo.
+return;
 
-% Sphericity è l'inversa della 3
 
 
 
