@@ -15,13 +15,16 @@ function features = firstorder_features(tumour_volume)
     features = [];
     
     % Tip: some preprocessing needed here
-    % >>>
+    % Reshape a singolo vettore e poi elimino le parti nere
+    tumour_dimension = size(tumour_volume);
+    tumour_volume = reshape(tumour_volume, [1, tumour_dimension(1) * tumour_dimension(2) * tumour_dimension(3)]);
+    tumour_volume = tumour_volume(tumour_volume ~= 0);
     
     [count, ~] = hist(tumour_volume, 256); % The second argument represent the number of bins
     tot = sum(count);
-    frequency = count/tot;
+    frequency = count / tot;
 
-    tumour_dimension = size(tumour_volume);
+    
     squared_matrix = tumour_volume.^2;
     
     % Maximum
@@ -29,13 +32,16 @@ function features = firstorder_features(tumour_volume)
     features.max = tumour_max;
     
     % Minimum
-    % >> INSERT CODE HERE
+    tumour_min = min(tumour_volume);
+    features.min = tumour_min;
     
     % Mean
-    % >> INSERT CODE HERE
+    tumour_mean = mean(tumour_volume);
+    features.mean = tumour_mean;
     
     % Median
-    % >> INSERT CODE HERE
+    tumour_median = median(tumour_volume);
+    features.median = tumour_median;
 
     % Mean Absolute Deviation (MAD)
     m_dev = abs(tumour_volume - tumour_mean);
@@ -43,10 +49,12 @@ function features = firstorder_features(tumour_volume)
     features.mad = MAD;
     
     % Root Mean Square (RMS)
-    % >> INSERT CODE HERE
+    tumour_rms = rms(tumour_volume);
+    features.rms = tumour_rms;
 
     % Energy
-    % >> INSERT CODE HERE
+    tumour_energy = sum(squared_matrix);
+    features.energy = tumour_energy;
     
     % Entropy
     entropy_vector = frequency.*log2(frequency);
@@ -59,6 +67,7 @@ function features = firstorder_features(tumour_volume)
     features.entropy = entropy;
 
     % Kurtosis
+    % Potrebbe essere importante per il risultato finale
     num_vector = (tumour_volume - tumour_mean).^4;
     den_vector = (tumour_volume - tumour_mean).^2;
     num = sum(num_vector)/tumour_dimension(1,1);
@@ -75,7 +84,8 @@ function features = firstorder_features(tumour_volume)
     clear temp_vector
     
     % Standard Deviation 
-    % >> INSERT CODE HERE
+    tumour_std = std(tumour_volume);
+    features.std = tumour_std;
 
     % Uniformity
     uniformity_vector = frequency.*frequency;
@@ -83,9 +93,8 @@ function features = firstorder_features(tumour_volume)
     features.uniformity = uniformity;
 
     % Variance
-    temp_vector = (tumour_volume - tumour_mean).^2;
-    variance = (1/(tumour_dimension(1,1)-1)) * sum(sum(temp_vector));
-    features.variance = variance;
+    features.variance = features.std.^2;
     clear temp_vector
 
+    
 end
