@@ -14,8 +14,9 @@ for i = 1:length(heterogeneous_files)
     filepath = strcat(file.folder, '\', file.name);
     img = load_nii(filepath);
     header = niftiinfo(filepath);
-    
     features_he(i, :) = morphological_features(img, header);
+    firstorder = firstorder_features(img.img);
+    glcm_features = texture_descriptors_features(img.img, header);
     labels_he(i) = {'heterogeneous'};
 end
 
@@ -27,8 +28,10 @@ for i = 1:length(homogeneous_files)
     filepath = strcat(file.folder, '\', file.name);
     img = load_nii(filepath);
     header = niftiinfo(filepath);
-    
+   
     features_ho(i, :) = morphological_features(img, header);
+    firstorder = firstorder_features(img.img);
+    glcm_features = texture_descriptors_features(img.img, header);
     labels_ho(i, 1) = {'homogeneous'};
 end
 
