@@ -6,7 +6,7 @@ heterogeneous_files = dir('dataset/heterogeneous/*.nii');
 homogeneous_files = dir('dataset/homogeneous/*.nii');
 addpath(strcat(pwd, '\Tools-for-NIfTI-and-ANALYZE-image'));
 
-features_he = zeros(length(heterogeneous_files), 5);
+features_he = zeros(length(heterogeneous_files), 5 + 13 + 9);
 labels_he = cell(length(heterogeneous_files), 1);
 
 for i = 1:length(heterogeneous_files)
@@ -14,13 +14,15 @@ for i = 1:length(heterogeneous_files)
     filepath = strcat(file.folder, '\', file.name);
     img = load_nii(filepath);
     header = niftiinfo(filepath);
-    features_he(i, :) = morphological_features(img, header);
-    firstorder = firstorder_features(img.img);
-    glcm_features = texture_descriptors_features(img.img, header);
+    
+    morphological_f = morphological_features(img.img, header);
+    firstorder_f = firstorder_features(img.img);
+    glcm_f = texture_descriptors_features(img.img, header);
+    features_he(i, :) = [morphological_f, firstorder_f, glcm_f];
     labels_he(i) = {'heterogeneous'};
 end
 
-features_ho = zeros(length(homogeneous_files), 5);
+features_ho = zeros(length(homogeneous_files), 5 + 13 + 9);
 labels_ho = cell(length(homogeneous_files), 1);
 
 for i = 1:length(homogeneous_files)
@@ -28,14 +30,21 @@ for i = 1:length(homogeneous_files)
     filepath = strcat(file.folder, '\', file.name);
     img = load_nii(filepath);
     header = niftiinfo(filepath);
-   
-    features_ho(i, :) = morphological_features(img, header);
-    firstorder = firstorder_features(img.img);
-    glcm_features = texture_descriptors_features(img.img, header);
+
+    morphological_f = morphological_features(img.img, header);
+    firstorder_f = firstorder_features(img.img);
+    glcm_f = texture_descriptors_features(img.img, header);
+    features_ho(i, :) = [morphological_f, firstorder_f, glcm_f];
     labels_ho(i, 1) = {'homogeneous'};
 end
 
 features = [features_he; features_ho];
+
+% Riscalo le features nel range [0, 1]
+colmin = min(features);
+colmax = max(features);
+
+features = rescale(features, 'InputMin', colmin, 'InputMax', colmax);
 labels = [labels_he; labels_ho];
 
 save('dataset.mat', 'features', 'labels');
