@@ -96,5 +96,5 @@ function features = firstorder_features(tumour_volume)
     features.variance = features.std.^2;
     clear temp_vector
 
-    
+    features = struct2array(features);
 end

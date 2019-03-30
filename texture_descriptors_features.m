@@ -12,5 +12,7 @@ glcm = getGLCM(tumour_volume, levels);
 
 features = getGLCMtextures(glcm);
 
+features = struct2array(features);
+
 return
 end
