@@ -1,6 +1,10 @@
 dataset = load('dataset.mat');
 
 features = dataset.features;
+
+% Rimuovo l'ultimo elemento della matrice perchè è la label
+features = features(:, 1:size(features, 2) - 1);
+
 labels = dataset.labels;
 
 indices = crossvalind('Kfold', labels, 10);
