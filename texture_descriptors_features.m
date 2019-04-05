@@ -13,7 +13,7 @@ glrlm = getGLRLM(tumour_volume, levels);
 glszm = getGLSZM(tumour_volume, levels);
 [ngtdm, countValid] = getNGTDM(tumour_volume, levels);
 
-glcm = getGLCMtextures(glcm)
+glcm = getGLCMtextures(glcm);
 glrlm = getGLRLMtextures(glrlm);
 glszm = getGLSZMtextures(glszm);
 ngtdm = getNGTDMtextures(ngtdm, countValid);
