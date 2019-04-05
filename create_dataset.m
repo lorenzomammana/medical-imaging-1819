@@ -40,17 +40,19 @@ for i = 1:length(homogeneous_files)
     texture_f = texture_descriptors_features(img.img, header);
     features_ho(i, :) = [morphological_f, firstorder_f, texture_f, 0];
     labels_ho(i, 1) = {'homogeneous'};
-    break
 end
 
-return
 features = [features_he; features_ho];
 
-% Riscalo le features nel range [0, 1]
+zero_one_f = is_in_range_zero_one(features);
+backup_f = features(:, zero_one_f);
+
+% Riscalo tutte le features fuori dal range [0, 1]
 colmin = min(features);
 colmax = max(features);
 
 features = rescale(features, 'InputMin', colmin, 'InputMax', colmax);
+features(:, zero_one_f) = backup_f;
 labels = [labels_he; labels_ho];
 
 save('dataset.mat', 'features', 'labels');
