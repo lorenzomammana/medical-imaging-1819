@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="kMeans">
+<entry key="dimensions" type="xint" value="18"/>
+<entry key="ignoredColumns" type="xint" value="1"/>
+<config key="clusterCoverage">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xint" value="9"/>
+<entry key="1" type="xint" value="20"/>
+</config>
+<config key="kMeansCluster0">
+<entry key="array-size" type="xint" value="17"/>
+<entry key="0" type="xdouble" value="0.39491333333333334"/>
+<entry key="1" type="xdouble" value="0.38121333333333335"/>
+<entry key="2" type="xdouble" value="0.8371777777777778"/>
+<entry key="3" type="xdouble" value="0.7284600000000001"/>
+<entry key="4" type="xdouble" value="0.7246433333333333"/>
+<entry key="5" type="xdouble" value="0.22370133333333334"/>
+<entry key="6" type="xdouble" value="0.7185877777777778"/>
+<entry key="7" type="xdouble" value="0.0073574999999999995"/>
+<entry key="8" type="xdouble" value="0.193724"/>
+<entry key="9" type="xdouble" value="0.72314"/>
+<entry key="10" type="xdouble" value="0.33266666666666667"/>
+<entry key="11" type="xdouble" value="0.012354999999999998"/>
+<entry key="12" type="xdouble" value="0.30063"/>
+<entry key="13" type="xdouble" value="0.76268"/>
+<entry key="14" type="xdouble" value="0.9559444444444445"/>
+<entry key="15" type="xdouble" value="0.02975711111111111"/>
+<entry key="16" type="xdouble" value="0.022550844444444443"/>
+</config>
+<config key="kMeansCluster1">
+<entry key="array-size" type="xint" value="17"/>
+<entry key="0" type="xdouble" value="0.2737715"/>
+<entry key="1" type="xdouble" value="0.3592615"/>
+<entry key="2" type="xdouble" value="0.21927105"/>
+<entry key="3" type="xdouble" value="0.17907674999999998"/>
+<entry key="4" type="xdouble" value="0.16231489999999998"/>
+<entry key="5" type="xdouble" value="0.020440800000000002"/>
+<entry key="6" type="xdouble" value="0.16358458"/>
+<entry key="7" type="xdouble" value="0.008856504999999999"/>
+<entry key="8" type="xdouble" value="0.28071695"/>
+<entry key="9" type="xdouble" value="0.7491035"/>
+<entry key="10" type="xdouble" value="0.2863321"/>
+<entry key="11" type="xdouble" value="0.011247344999999999"/>
+<entry key="12" type="xdouble" value="0.39468899999999996"/>
+<entry key="13" type="xdouble" value="0.5309705000000001"/>
+<entry key="14" type="xdouble" value="0.965207"/>
+<entry key="15" type="xdouble" value="0.029523299999999995"/>
+<entry key="16" type="xdouble" value="0.028628900000000002"/>
+</config>
+<config key="FeatureNames">
+<entry key="array-size" type="xint" value="18"/>
+<entry key="0" type="xstring" value="surface"/>
+<entry key="1" type="xstring" value="spherical_disproportion"/>
+<entry key="2" type="xstring" value="max"/>
+<entry key="3" type="xstring" value="median"/>
+<entry key="4" type="xstring" value="MAD"/>
+<entry key="5" type="xstring" value="energy"/>
+<entry key="6" type="xstring" value="std"/>
+<entry key="7" type="xstring" value="uniformity"/>
+<entry key="8" type="xstring" value="glcm_contrast"/>
+<entry key="9" type="xstring" value="glcm_entropy"/>
+<entry key="10" type="xstring" value="glcm_correlation"/>
+<entry key="11" type="xstring" value="glcm_sumaverage"/>
+<entry key="12" type="xstring" value="glcm_dissimilarity"/>
+<entry key="13" type="xstring" value="glcm_autocorrelation"/>
+<entry key="14" type="xstring" value="glrlm_rp"/>
+<entry key="15" type="xstring" value="glszm_gln"/>
+<entry key="16" type="xstring" value="ngtdm_coarseness"/>
+<entry key="17" type="xstring" isnull="true" value=""/>
+</config>
+</config>
