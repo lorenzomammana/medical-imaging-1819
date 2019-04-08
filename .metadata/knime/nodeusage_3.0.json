@@ -99,6 +99,22 @@
                 "exectime":0,
                 "nrcreated":1,
                 "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.meta.feature.selection.FeatureSelectionLoopEndNodeFactory#Feature Selection Loop End",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":0,
+                "successor":"org.knime.base.node.meta.feature.selection.FeatureSelectionFilterNodeFactory#Feature Selection Filter"
+            },
+            {
+                "id":"org.knime.base.node.meta.feature.selection.FeatureSelectionFilterNodeFactory#Feature Selection Filter",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":26,
+                "nrcreated":0,
+                "successor":"n/a"
             }
         ],
         "metaNodes":{
@@ -110,11 +126,11 @@
         "wrappedNodes":{
         }
     },
-    "uptime":2567072,
+    "uptime":1858369,
     "workflowsOpened":1,
     "remoteWorkflowsOpened":0,
-    "launches":2,
-    "timeSinceLastStart":3173129,
+    "launches":3,
+    "timeSinceLastStart":440964,
     "crashes":0,
     "properlyShutDown":true
 }

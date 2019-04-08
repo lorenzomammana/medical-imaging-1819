@@ -42,11 +42,11 @@
           <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo</tags>
           <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_7Kic8VofEempgrA5MysubA" selectedElement="_7Kic-lofEempgrA5MysubA" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_7Kic8lofEempgrA5MysubA" containerData="3000" selectedElement="_7Kic9VofEempgrA5MysubA">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_7Kic8lofEempgrA5MysubA" containerData="2882" selectedElement="_7Kic9VofEempgrA5MysubA">
               <children xsi:type="basic:PartStack" xmi:id="_7Kic81ofEempgrA5MysubA" elementId="org.knime.workbench.explorer.viewMStack" containerData="3000" selectedElement="_7Kic9FofEempgrA5MysubA">
                 <children xsi:type="advanced:Placeholder" xmi:id="_7Kic9FofEempgrA5MysubA" elementId="org.knime.workbench.explorer.view" ref="_7KbIMFofEempgrA5MysubA"/>
               </children>
-              <children xsi:type="basic:PartSashContainer" xmi:id="_7Kic9VofEempgrA5MysubA" containerData="7000" selectedElement="_7Kic-FofEempgrA5MysubA">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_7Kic9VofEempgrA5MysubA" containerData="7000" selectedElement="_7Kic9lofEempgrA5MysubA">
                 <children xsi:type="basic:PartStack" xmi:id="_7Kic9lofEempgrA5MysubA" elementId="org.knime.workbench.workflowcoach.viewMStack" containerData="2000" selectedElement="_7Kic91ofEempgrA5MysubA">
                   <children xsi:type="advanced:Placeholder" xmi:id="_7Kic91ofEempgrA5MysubA" elementId="org.knime.workbench.workflowcoach.view" ref="_7KhO0FofEempgrA5MysubA"/>
                 </children>
@@ -57,7 +57,7 @@
                 </children>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_7Kic-lofEempgrA5MysubA" containerData="7000" selectedElement="_7Kic-1ofEempgrA5MysubA">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_7Kic-lofEempgrA5MysubA" containerData="7118" selectedElement="_7Kic-1ofEempgrA5MysubA">
               <children xsi:type="basic:PartSashContainer" xmi:id="_7Kic-1ofEempgrA5MysubA" containerData="7000" selectedElement="_7Kic_FofEempgrA5MysubA" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_7Kic_FofEempgrA5MysubA" elementId="org.eclipse.ui.editorss" containerData="7000" ref="_7KVooFofEempgrA5MysubA"/>
                 <children xsi:type="basic:PartStack" xmi:id="_7Kic_VofEempgrA5MysubA" elementId="org.knime.workbench.helpviewMStack" toBeRendered="false" containerData="3000">
@@ -604,7 +604,7 @@
       <tags>platform:cocoa</tags>
       <parameters xmi:id="_6VENiFofEempgrA5MysubA" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.jdt.ui.PackageExplorer"/>
     </bindings>
-    <bindings xmi:id="_ZgF2YFoxEem-BKIvUTq2wg" keySequence="COMMAND+CTRL+F" command="_6XczIlofEempgrA5MysubA"/>
+    <bindings xmi:id="_M3ZE8Vo7EemT8M3hM42TbQ" keySequence="COMMAND+CTRL+F" command="_6XczIlofEempgrA5MysubA"/>
   </bindingTables>
   <bindingTables xmi:id="_6U1kAFofEempgrA5MysubA" elementId="org.eclipse.datatools.sqltools.SQLEditorScope" bindingContext="_6UBrvFofEempgrA5MysubA">
     <bindings xmi:id="_6U1kAVofEempgrA5MysubA" keySequence="ALT+COMMAND+D" command="_6T6XBFofEempgrA5MysubA"/>
@@ -757,7 +757,7 @@
     <bindings xmi:id="_6VCYU1ofEempgrA5MysubA" keySequence="COMMAND+1" command="_6T8zY1ofEempgrA5MysubA"/>
   </bindingTables>
   <bindingTables xmi:id="_6XeBQFofEempgrA5MysubA" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_6THsy1ofEempgrA5MysubA">
-    <bindings xmi:id="_ZgGdcFoxEem-BKIvUTq2wg" keySequence="M1+W" command="_6XdaNFofEempgrA5MysubA"/>
+    <bindings xmi:id="_M3ZsAFo7EemT8M3hM42TbQ" keySequence="M1+W" command="_6XdaNFofEempgrA5MysubA"/>
   </bindingTables>
   <bindingTables xmi:id="_7GuT8VofEempgrA5MysubA" bindingContext="_7GuT8FofEempgrA5MysubA"/>
   <bindingTables xmi:id="_7GviEVofEempgrA5MysubA" bindingContext="_7GviEFofEempgrA5MysubA"/>
@@ -2102,7 +2102,7 @@
   <addons xmi:id="_6TIT0VofEempgrA5MysubA" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_6TIT0lofEempgrA5MysubA" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_6TRdwFofEempgrA5MysubA" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_ZfvREFoxEem-BKIvUTq2wg" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <addons xmi:id="_6XblAFofEempgrA5MysubA" elementId="org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler"/>
   <categories xmi:id="_6Tx0EFofEempgrA5MysubA" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
