@@ -12,359 +12,113 @@
 </config>
 <config key="column_domain">
 <config key="possible_values">
-<entry key="array-size" type="xint" value="59"/>
+<entry key="array-size" type="xint" value="18"/>
 <config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="MAD"/>
-</config>
-</config>
-<config key="1">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="energy"/>
 </config>
 </config>
-<config key="2">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="entropy"/>
-</config>
-</config>
-<config key="3">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="glcm_autocorrelation"/>
-</config>
-</config>
-<config key="4">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="glcm_contrast"/>
-</config>
-</config>
-<config key="5">
+<config key="1">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="glcm_correlation"/>
 </config>
 </config>
-<config key="6">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="glcm_dissimilarity"/>
-</config>
-</config>
-<config key="7">
+<config key="2">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="glcm_energy"/>
 </config>
 </config>
-<config key="8">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="glcm_entropy"/>
-</config>
-</config>
-<config key="9">
+<config key="3">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="glcm_homogeneity"/>
 </config>
 </config>
-<config key="10">
+<config key="4">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="glcm_sumaverage"/>
 </config>
 </config>
-<config key="11">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="glcm_variance"/>
-</config>
-</config>
-<config key="12">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="glrlm_gln"/>
-</config>
-</config>
-<config key="13">
+<config key="5">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="glrlm_glv"/>
 </config>
 </config>
-<config key="14">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="glrlm_hgre"/>
-</config>
-</config>
-<config key="15">
+<config key="6">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="glrlm_lgre"/>
 </config>
 </config>
-<config key="16">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="glrlm_lre"/>
-</config>
-</config>
-<config key="17">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="glrlm_lrhge"/>
-</config>
-</config>
-<config key="18">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="glrlm_lrlge"/>
-</config>
-</config>
-<config key="19">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="glrlm_rln"/>
-</config>
-</config>
-<config key="20">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="glrlm_rlv"/>
-</config>
-</config>
-<config key="21">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="glrlm_rp"/>
-</config>
-</config>
-<config key="22">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="glrlm_sre"/>
-</config>
-</config>
-<config key="23">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="glrlm_srhge"/>
-</config>
-</config>
-<config key="24">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="glrlm_srlge"/>
-</config>
-</config>
-<config key="25">
+<config key="7">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="glszm_gln"/>
 </config>
 </config>
-<config key="26">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="glszm_glv"/>
-</config>
-</config>
-<config key="27">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="glszm_hgze"/>
-</config>
-</config>
-<config key="28">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="glszm_lgze"/>
-</config>
-</config>
-<config key="29">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="glszm_lze"/>
-</config>
-</config>
-<config key="30">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="glszm_lzhge"/>
-</config>
-</config>
-<config key="31">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="glszm_lzlge"/>
-</config>
-</config>
-<config key="32">
+<config key="8">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="glszm_sze"/>
 </config>
 </config>
-<config key="33">
+<config key="9">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="glszm_szhge"/>
 </config>
 </config>
-<config key="34">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="glszm_szlge"/>
-</config>
-</config>
-<config key="35">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="glszm_zp"/>
-</config>
-</config>
-<config key="36">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="glszm_zsn"/>
-</config>
-</config>
-<config key="37">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="glszm_zsv"/>
-</config>
-</config>
-<config key="38">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="kurtosis"/>
-</config>
-</config>
-<config key="39">
+<config key="10">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="label"/>
 </config>
 </config>
-<config key="40">
+<config key="11">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="max"/>
 </config>
 </config>
-<config key="41">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="mean"/>
-</config>
-</config>
-<config key="42">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="median"/>
-</config>
-</config>
-<config key="43">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="min"/>
-</config>
-</config>
-<config key="44">
+<config key="12">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="mtv"/>
 </config>
 </config>
-<config key="45">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="ngtdm_busyness"/>
-</config>
-</config>
-<config key="46">
+<config key="13">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="ngtdm_coarseness"/>
 </config>
 </config>
-<config key="47">
+<config key="14">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="ngtdm_complexity"/>
 </config>
 </config>
-<config key="48">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="ngtdm_contrast"/>
-</config>
-</config>
-<config key="49">
+<config key="15">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="ngtdm_strength"/>
 </config>
 </config>
-<config key="50">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="rms"/>
-</config>
-</config>
-<config key="51">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="skewness"/>
-</config>
-</config>
-<config key="52">
+<config key="16">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="spherical_disproportion"/>
 </config>
 </config>
-<config key="53">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="sphericity"/>
-</config>
-</config>
-<config key="54">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="std"/>
-</config>
-</config>
-<config key="55">
+<config key="17">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
 <entry key="StringCell" type="xstring" value="stv_ratio"/>
-</config>
-</config>
-<config key="56">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="surface"/>
-</config>
-</config>
-<config key="57">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="uniformity"/>
-</config>
-</config>
-<config key="58">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="variance"/>
 </config>
 </config>
 </config>
@@ -473,13 +227,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="5.804883333333333E-5"/>
+<entry key="DoubleCell" type="xdouble" value="0.0022293333333333336"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.972175"/>
+<entry key="DoubleCell" type="xdouble" value="0.7916264705882353"/>
 </config>
 </config>
 </config>
@@ -497,13 +251,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="2.5369155468289373E-5"/>
+<entry key="DoubleCell" type="xdouble" value="7.588643241214071E-4"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
 <config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.336383443559939"/>
+<entry key="DoubleCell" type="xdouble" value="0.3271759958548861"/>
 </config>
 </config>
 </config>

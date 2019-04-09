@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="include-list_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="include-list">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="59"/>
+<entry key="0" type="xstring" value="mtv"/>
+<entry key="1" type="xstring" value="surface"/>
+<entry key="2" type="xstring" value="spherical_disproportion"/>
+<entry key="3" type="xstring" value="sphericity"/>
+<entry key="4" type="xstring" value="stv_ratio"/>
+<entry key="5" type="xstring" value="max"/>
+<entry key="6" type="xstring" value="min"/>
+<entry key="7" type="xstring" value="mean"/>
+<entry key="8" type="xstring" value="median"/>
+<entry key="9" type="xstring" value="MAD"/>
+<entry key="10" type="xstring" value="rms"/>
+<entry key="11" type="xstring" value="energy"/>
+<entry key="12" type="xstring" value="entropy"/>
+<entry key="13" type="xstring" value="kurtosis"/>
+<entry key="14" type="xstring" value="skewness"/>
+<entry key="15" type="xstring" value="std"/>
+<entry key="16" type="xstring" value="uniformity"/>
+<entry key="17" type="xstring" value="variance"/>
+<entry key="18" type="xstring" value="glcm_energy"/>
+<entry key="19" type="xstring" value="glcm_contrast"/>
+<entry key="20" type="xstring" value="glcm_entropy"/>
+<entry key="21" type="xstring" value="glcm_homogeneity"/>
+<entry key="22" type="xstring" value="glcm_correlation"/>
+<entry key="23" type="xstring" value="glcm_sumaverage"/>
+<entry key="24" type="xstring" value="glcm_variance"/>
+<entry key="25" type="xstring" value="glcm_dissimilarity"/>
+<entry key="26" type="xstring" value="glcm_autocorrelation"/>
+<entry key="27" type="xstring" value="glrlm_sre"/>
+<entry key="28" type="xstring" value="glrlm_lre"/>
+<entry key="29" type="xstring" value="glrlm_gln"/>
+<entry key="30" type="xstring" value="glrlm_rln"/>
+<entry key="31" type="xstring" value="glrlm_rp"/>
+<entry key="32" type="xstring" value="glrlm_lgre"/>
+<entry key="33" type="xstring" value="glrlm_hgre"/>
+<entry key="34" type="xstring" value="glrlm_srlge"/>
+<entry key="35" type="xstring" value="glrlm_srhge"/>
+<entry key="36" type="xstring" value="glrlm_lrlge"/>
+<entry key="37" type="xstring" value="glrlm_lrhge"/>
+<entry key="38" type="xstring" value="glrlm_glv"/>
+<entry key="39" type="xstring" value="glrlm_rlv"/>
+<entry key="40" type="xstring" value="glszm_sze"/>
+<entry key="41" type="xstring" value="glszm_lze"/>
+<entry key="42" type="xstring" value="glszm_gln"/>
+<entry key="43" type="xstring" value="glszm_zsn"/>
+<entry key="44" type="xstring" value="glszm_zp"/>
+<entry key="45" type="xstring" value="glszm_lgze"/>
+<entry key="46" type="xstring" value="glszm_hgze"/>
+<entry key="47" type="xstring" value="glszm_szlge"/>
+<entry key="48" type="xstring" value="glszm_szhge"/>
+<entry key="49" type="xstring" value="glszm_lzlge"/>
+<entry key="50" type="xstring" value="glszm_lzhge"/>
+<entry key="51" type="xstring" value="glszm_glv"/>
+<entry key="52" type="xstring" value="glszm_zsv"/>
+<entry key="53" type="xstring" value="ngtdm_coarseness"/>
+<entry key="54" type="xstring" value="ngtdm_contrast"/>
+<entry key="55" type="xstring" value="ngtdm_busyness"/>
+<entry key="56" type="xstring" value="ngtdm_complexity"/>
+<entry key="57" type="xstring" value="ngtdm_strength"/>
+<entry key="58" type="xstring" value="label"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+<config key="possibleValuesCount_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="possibleValuesCount" type="xint" value="100"/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value=""/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="87"/>
+<entry key="y-coordinate" type="xint" value="219"/>
+<entry key="width" type="xint" value="107"/>
+<entry key="height" type="xint" value="13"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="11"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Some numeric column(s) have low variance (are constant): &quot;glrlm_rlv&quot;, &quot;glszm_zsv&quot;"/>
+</config>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.correlation.compute.CorrelationComputeNodeFactory"/>
+<entry key="node-name" type="xstring" value="Linear Correlation"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-bundle-version" type="xstring" value="3.4.1.v201709070950"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-feature-version" type="xstring" value="3.4.2.v201709221023"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Linear Correlation"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 59, Cols: 59"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.base.node.preproc.correlation.pmcc.PMCCPortObjectAndSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.base.node.preproc.correlation.pmcc.PMCCPortObjectAndSpec"/>
+<entry key="port_object_summary" type="xstring" value="Correlation values on 59 columns"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_2"/>
+</config>
+</config>
+<config key="internalObjects">
+<entry key="location" type="xstring" value="internalTables"/>
+<config key="content">
+<config key="object_0">
+<entry key="index" type="xint" value="0"/>
+<entry key="type" type="xstring" value="table"/>
+<entry key="table_dir_location" type="xstring" value="object_0"/>
+</config>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="5366ac40-3b41-43ee-94d3-8dbf7fa03809"/>
+</config>
+</config>
