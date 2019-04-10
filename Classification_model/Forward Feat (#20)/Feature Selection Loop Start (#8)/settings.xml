@@ -163,7 +163,7 @@
 <entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
 <entry key="node-feature-version" type="xstring" value="3.4.1.v201709070955"/>
 <config key="factory_settings"/>
-<entry key="name" type="xstring" value="Feature Selection Loop Start"/>
+<entry key="name" type="xstring" value="Feature Selection Loop Start (1:1)"/>
 <entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
@@ -177,6 +177,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="85a6bbbc-5a2e-43bd-aa9c-577ecb32959e"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>
